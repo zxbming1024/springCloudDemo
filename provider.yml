@@ -1,7 +1,7 @@
 eureka:
  client:
   serviceUrl:
-   defaultZone: http://loalhost:8671/eureka/
+   defaultZone: http://loalhost:867111/eureka/
 spring:
  datasource:
   driver-class-name: com.mysql.jdbc.Driver
