@@ -1,6 +1,6 @@
 eureka:
  client:
-  serviceId:
+  serviceUrl:
    defaultZone: http://loalhost:8671/eureka/
 spring:
  datasource:
