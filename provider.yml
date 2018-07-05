@@ -1,1 +1,4 @@
-
+eureka:
+ client:
+  serviceId:
+   defaultZone: http://loalhost:8671/eureka/
