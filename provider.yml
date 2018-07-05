@@ -2,3 +2,12 @@ eureka:
  client:
   serviceId:
    defaultZone: http://loalhost:8671/eureka/
+spring:
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc.mysql://localhost:3306/school?useUnicode=true&characterEncoding=utf8
+  username: root
+  password: 1024
+management:
+ security:
+  enabled: false
