@@ -2,6 +2,8 @@ eureka:
  client:
   serviceUrl:
    defaultZone: http://loalhost:8671/eureka/
+server£º
+ port:8888
 spring:
  datasource:
   driver-class-name: com.mysql.jdbc.Driver
